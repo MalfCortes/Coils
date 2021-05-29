@@ -1,0 +1,34 @@
+.container{
+  width: 100%;
+  min-width: 200px;
+}
+
+.main{
+  position: relative;
+  text-align: center;
+}
+.title{
+  font-size: 2rem;
+}
+
+.imagem a:hover{
+  opacity: 0.5;
+}
+.lista ul{
+  list-style: none;
+  
+}
+.lista li{
+width: 100px;
+height: 100px;
+background-color: rgba(245, 245, 220, 0.616);
+margin: 20px;
+transition: 2s;
+}
+
+.lista li:hover{
+  text-align: top left;
+  opacity: 50%;
+  width: 500px;
+  
+}
