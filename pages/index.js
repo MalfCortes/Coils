@@ -17,7 +17,7 @@ export default function Home() {
       <div className={styles.title}>
         <h1>SC & Coils</h1>
       <div className={styles.description}>
-      <h5>Itens Para uma build perfeita</h5>
+      <h5>Coil para uma build perfeita</h5>
       </div>  
       </div>
       <div className={styles.imagem}>

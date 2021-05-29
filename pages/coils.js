@@ -17,38 +17,45 @@ export default function Coils() {
         <h1>SC & Coils</h1>
       <div className={styles.description}>
       <h5>Itens Para uma build perfeita</h5>
-      </div>  
-      </div>
-      <div className={styles.lista}>
-      Tipos de Coils
-         <ul>
-             <li>Simples<Image
-        src="/coilsimples.jpg"
-        alt="Coils"
-        width={100}
-        height={100}
-      /></li>
-             <li>Paralelas<Image
-        src="/coilparalela.jpg"
-        alt="Coils"
-        width={100}
-        height={100}
-      /></li>
-             <li>Twisted<Image
-        src="/coiltwisted.jpg"
-        alt="Coils"
-        width={100}
-        height={100}
-      /></li>
-             <li>Clapton<Image
-        src="/coilclapton.jpg"
-        alt="Coils"
-        width={100}
-        height={100}
-      /></li>
-         </ul>
-          
-      </div>
+        </div>   </div>
+            <div className={styles.row}>
+                <div className={styles.column}>
+                <Image
+                src="/coilsimples.jpg"
+                alt="Simples"
+                width={200}
+                height={200}
+                />
+                </div>
+
+                <div className={styles.column}>
+                <Image
+                src="/coilparalela.jpg"
+                alt="paralela"
+                width={200}
+                height={200}
+                />
+                </div>
+
+                <div className={styles.column}>
+                <Image
+                src="/coiltwisted.jpg"
+                alt="Simples"
+                width={200}
+                height={200}
+                /> 
+                </div>
+
+                <div className={styles.column}>
+                <Image
+                src="/coilclapton.jpg"
+                alt="Simples"
+                width={200}
+                height={200}
+                />
+                </div>
+            </div>
+        
 
       </main>  
     </div>
